@@ -1,0 +1,40 @@
+int h=1000;
+
+
+
+void setup() {
+  size(1000,1000);
+}
+void draw() {
+  background(255,0,0);
+  
+  if (mouseX > h/2) {
+    background(0,255,0);
+  
+  
+
+  
+
+  background(0,255,0);
+  
+  if (mouseY > h/2) {
+    background(0,0,255);
+  
+  if (mouseX < 500) {
+    background(1,1,1);
+
+
+ if (mouseY > 500) {
+    background(1,1,1);
+  
+  }
+  }
+  }
+  }
+  stroke(1);
+  line(500,0,500,height);
+
+stroke(1);
+line(0,500,95000,height);
+
+}
